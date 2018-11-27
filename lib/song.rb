@@ -35,7 +35,7 @@ class Song
   
   def self.artist_count 
     @@artists.inject(Hash.new(0)) do |total, i|
-      total[i] += 1; total 
+      total[i] += 1 ;total 
     end 
   end 
   
